@@ -1,0 +1,28 @@
+#include <iostream>
+#define _USE_MATH_DEFINES
+#include <cmath>
+
+
+using namespace std;
+
+int main()
+{
+    cout<<"Task 1.1 and 1.2: "<<endl;
+
+    float a, b;
+    cout<<"Vvedite 2 chisla: "<<endl;
+    cin>>a>>b;
+    cout<<a<<"+"<<b<<"= "<<a+b<<endl;
+    cout<<a<<"-"<<b<<"= "<<a-b<<endl;
+    cout<<a<<"*"<<b<<"= "<<a*b<<endl;
+    cout<<a<<"/"<<b<<"= "<<a/b<<endl;
+
+
+    cout<<"Task 1.3: "<<endl;
+    cout<<"Vvedite ugol v gradisah: "<<endl;
+    cin>>a;
+    cout<<"sin= "<<sin(a * M_PI / 180)<<", cos= "<<cos(a * M_PI / 180)<<endl;
+
+
+    return 0;
+}
